@@ -26,10 +26,11 @@ class Bird {
   speak() {
     switch(this.sex) {
       case "male":
-      return `It's me! ${this.name}, the parrot!`;
+        return `It's me! ${this.name}, the parrot!`;
       break;
       case "female":
         return `${this.name} says squawk!`;
       break;
     }
+  }
 }
